@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SILVAG | Equipamiento Militar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      color: #4caf50;
+      font-size: 2rem;
+    }
+    nav a {
+      color: #ccc;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #4caf50;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600880292089-cb8a394a9a5f?fit=crop&w=1400&q=80') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0,0,0,0.6);
+      padding: 1rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background-color: #222;
+      border: 1px solid #444;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .product h3 {
+      margin-top: 0.5rem;
+    }
+    .contact {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 2rem;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SILVAG</h1>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#publico">Venta al Público</a>
+      <a href="#estado">Venta al Estado</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Equipamiento táctico confiable para quienes protegen</h2>
+  </section>
+
+  <section id="catalogo" class="section">
+    <h2>Catálogo</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?fit=crop&w=500&q=80" alt="Mochila táctica" />
+        <h3>Mochila táctica</h3>
+        <p>Resistente al agua, múltiples compartimientos, ideal para operaciones prolongadas.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1617201902473-3f162bb902a5?fit=crop&w=500&q=80" alt="Cuchillo militar" />
+        <h3>Cuchillo militar</h3>
+        <p>Acero templado, diseño ergonómico, funda con clip para cinturón.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1581287053827-7c88bc993d84?fit=crop&w=500&q=80" alt="Chaleco antibalas" />
+        <h3>Chaleco antibalas</h3>
+        <p>Certificado NIJ IIIA, ajuste cómodo, compatible con placas cerámicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publico" class="section">
+    <h2>Venta al Público</h2>
+    <p>Ofrecemos equipamiento táctico para civiles, fuerzas de seguridad retiradas y entusiastas del outdoor.</p>
+  </section>
+
+  <section id="estado" class="section">
+    <h2>Venta al Estado</h2>
+    <p>SILVAG es proveedor de organismos oficiales. Cumplimos con normativas nacionales e internacionales.</p>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p>¿Querés hacer un pedido o tenés consultas? Comunicate con nosotros:</p>
+    <a href="https://wa.me/5491123456789" target="_blank">WhatsApp</a>
+    <a href="mailto:contacto@silvag.com">Email</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SILVAG. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
